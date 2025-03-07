@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>
+        BT1
+    </title>
+<style>
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("D:/TLUer/NTPTWEB/extra-files/ocean.jpg");
+}
+nav ul {
+    list-style-type: none;
+    align-items: center;
+    
+}
+nav {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: auto;
+    border: 3px solid yellow;
+    display: inline-block;
+}
+nav li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    padding-right: 16px;
+    text-decoration: none;
+    
+}
+a:link {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+#hero {
+    background-image: url("d:/TLUer/NTPTWEB/extra-files/ocean.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 400px;
+}
+
+#hero-content{
+    background-color: gray;
+    opacity: 80%;
+    text-align:center;
+    padding: 20px;
+}
+#hero-content a {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+}
+#highlights{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background-color: #b0f0ea;
+}
+#destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.destination img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer ul {
+    list-style-type: none;
+    display:	flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.icon{
+    width: 70%;
+    height: 20px;
+}
+
+ul,h2 {
+    margin: 0px;
+    padding: 5px;
+}
+strong {
+    color: rgb(101, 221, 147);
+}
+header{
+    border: 5px solid orangered;
+}
+section{
+    border: 3px solid violet;
+}
+footer{
+    border: 5px solid orangered;
+}
+#page-logo a{
+    font-family: cursive;
+    font-size: large;
+}
+</style>
+<body>
+    <header>
+        <div id="page-logo">
+            <a href="/index.html"> TRAVEL GOALS</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href ="/places.html">Destinations</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div id="hero-content">
+                <h1>JOE'S TRAVEL PAGE</h1>
+                <p>LET'S EXPLORE THE WORLD TOGETHER</p>
+                <a href="/places.html">Discover places</a>
+            </div>
+        </section>
+        <section id="highlights">
+            <h2>Highlights</h2>
+            <ul id="destination">
+                <li class="destination">
+                    <img src="d:\TLUer\NTPTWEB\extra-files\cities\miami.jpg" alt="miani">
+                    <p>MIAMI <strong>USA</strong></p>
+                </li>
+                <li class="destination">
+                    <img src="d:\TLUer\NTPTWEB\extra-files\cities\munich.jpg" alt="germany">
+                    <p>MUNICH <strong>GERMANY</strong></p>
+                </li>
+                <li class="destination">
+                    <img src="D:\TLUer\NTPTWEB\extra-files\cities\barcelona.jpg" alt="barcelona">
+                    <p>BARCELONA <strong>SPAIN</strong></p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <img class="icon" src="D:\TLUer\NTPTWEB\extra-files\icons\insta.png" alt="ins logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/?locale=vi_VN">
+                    <img class="icon" src="D:\TLUer\NTPTWEB\extra-files\icons\facebook.png" alt="fb logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
