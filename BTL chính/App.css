@@ -1,0 +1,61 @@
+body {
+  background: url(https://image.static.bstage.in/cdn-cgi/image/metadata=none/oneus/ed44a8de-65a6-4319-999e-c03da3942a4b/47c24356-23da-4237-8d94-bd1b302c5233/ori.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+
+.user-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.user-card h2 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.user-card p {
+  font-size: 20px;
+  color: #0e0d0d;
+  text-align: center;
+  align-items: center;
+}
+
+.user-container:has(.user-card:hover) .user-card {
+  opacity: 0.3;
+  /* Làm mờ tất cả các card */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.user-container .user-card:hover {
+  opacity: 1 !important;
+  /* Card được hover sẽ hiển thị rõ */
+}
