@@ -1,0 +1,29 @@
+/* App.css */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;  /* Đảm bảo các sản phẩm sẽ xuống dòng khi không còn chỗ */
+  gap: 20px;        /* Khoảng cách giữa các cards */
+  justify-content: space-between; /* Căn đều các card trên hàng ngang */
+  padding: 20px;    /* Khoảng cách padding cho container */
+}
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho card */
+  width: 250px;    /* Đặt kích thước cho mỗi card */
+  padding: 16px;   /* Khoảng cách bên trong card */
+  text-align: center;  /* Canh giữa nội dung trong card */
+}
+.product-card img {
+  width: 100%;   /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của card */
+  height: auto;  /* Duy trì tỉ lệ của ảnh */
+  border-radius: 8px;  /* Bo góc ảnh */
+}
+.product-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.product-card p {
+  font-size: 14px;
+  color: #666;
+}
